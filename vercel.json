@@ -8,12 +8,12 @@
     {
       "source": "/:path*/",
       "destination": "https://daffy.org/resources/:path*",
-      "permanent": false
+      "permanent": true
     },
     {
       "source": "/:path*",
       "destination": "https://daffy.org/resources/:path*",
-      "permanent": false
+      "permanent": true
     }
   ]
 }
